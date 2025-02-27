@@ -23,7 +23,6 @@ const containerVariants = {
 const About = () => {
   const theme = useTheme();
   const styles = useStyles();
-  console.log(theme, "themeeee");
 
   return (
     <Container maxWidth="xl" className={styles.root} id="About">

@@ -65,9 +65,6 @@ const Contact = () => {
     e.preventDefault();
     if (validate()) {
       setLoading(true); // Start spinner
-      console.log(SERVICE_ID, "SERVICE_ID");
-      console.log(TEMPLATE_ID, "TEMPLATE_ID");
-      console.log(PUBLIC_KEY, "PUBLIC_KEY");
       emailjs
         .send(
           SERVICE_ID,
@@ -81,7 +78,6 @@ const Contact = () => {
         )
         .then(
           (response) => {
-            console.log("SUCCESS!", response.status, response.text);
             setSnackbar({
               open: true,
               message: "Your message has been sent successfully!",
