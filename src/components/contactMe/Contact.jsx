@@ -65,7 +65,9 @@ const Contact = () => {
     e.preventDefault();
     if (validate()) {
       setLoading(true); // Start spinner
-
+      console.log(SERVICE_ID, "SERVICE_ID");
+      console.log(TEMPLATE_ID, "TEMPLATE_ID");
+      console.log(PUBLIC_KEY, "PUBLIC_KEY");
       emailjs
         .send(
           SERVICE_ID,
@@ -161,8 +163,16 @@ const Contact = () => {
             }}
           />
 
-          <Box display={"flex"} justifyContent={"flex-end"}>
-            <Button type="submit" size="small" className={styles.submitButton}>
+          <Box
+            display={"flex"}
+            justifyContent={"flex-end"}
+            className={styles.submitButtonBox}
+          >
+            <Button
+              type="submit"
+              variant="outlined"
+              className={styles.submitButton}
+            >
               SUBMIT
               {loading ? (
                 <CircularProgress

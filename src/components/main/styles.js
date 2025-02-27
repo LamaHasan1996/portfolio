@@ -37,6 +37,10 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: "column",
     alignItems: "center",
     gap: 10,
+    "& .MuiButton-root:hover": {
+      backgroundColor: "#ff4d5a!important",
+      color: "#fff!important",
+    },
   },
   btn: {
     color: "#ff4d5a !important",

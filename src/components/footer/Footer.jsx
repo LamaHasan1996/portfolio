@@ -18,9 +18,7 @@ const Footer = () => {
       </Box>
 
       <Typography className={styles.text}>
-        Lama Hasan
-        <CopyrightIcon />
-        2025{" "}
+        <CopyrightIcon /> Lama Hasan 2025
       </Typography>
     </Box>
   );
