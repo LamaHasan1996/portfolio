@@ -173,7 +173,7 @@ const Contact = () => {
               variant="outlined"
               className={styles.submitButton}
             >
-              SUBMIT
+              Submit
               {loading ? (
                 <CircularProgress
                   size={20}

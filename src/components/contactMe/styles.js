@@ -91,8 +91,7 @@ const useStyles = makeStyles((theme) => ({
   },
   submitButton: {
     color: "#ff4d5a!important",
-    fontWeight: "bold!important",
-    textTransform: "uppercase!important",
+    textTransform: "capitalize!important",
     borderColor: "#ff4d5a!important",
   },
   successMessage: {
