@@ -1,0 +1,22 @@
+#root {
+  font-family: "Poppins";
+}
+
+body {
+  margin: 0;
+  background-color: #030304;
+}
+
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("/fonts/Poppins/Poppins-Bold.woff");
+  src: local("Poppins"),
+    url("/fonts/Poppins/Poppins-Bold.woff") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins/Poppins-Regular.woff");
+  src: local("Poppins"),
+    url("/fonts/Poppins/Poppins-Regular.woff") format("truetype");
+}
