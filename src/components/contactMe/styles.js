@@ -65,6 +65,7 @@ const useStyles = makeStyles((theme) => ({
     overflow: "hidden",
     "& .MuiInputBase-input": {
       color: "#fff",
+      borderRadius: "8px",
     },
     "& .MuiInputLabel-root": {
       color: "#aaa!important",
